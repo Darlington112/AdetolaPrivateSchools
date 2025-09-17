@@ -270,7 +270,7 @@ const Home = () => {
                 ></textarea>
               </div>
               <ReCAPTCHA
-                sitekey="6LeEXswrAAAAAOTb0DGhPQeZ_yffsO82tRq7qfGd"
+                sitekey="6Lf2ZcwrAAAAAKFeL4t3KhsBoUh9CTRAf413lMku"
                 onChange={onChange}
               />
               ,
