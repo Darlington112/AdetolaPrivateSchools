@@ -12,14 +12,14 @@ import pointer from "../../assets/dark-arrow.png";
 import overlay1 from "../../assets/program-icon-1.png";
 import overlay2 from "../../assets/program-icon-2.png";
 import overlay3 from "../../assets/program-icon-3.png";
-import program1 from "../../assets/program-1.png";
-import program2 from "../../assets/program-2.png";
-import program3 from "../../assets/program-3.png";
+import program1 from "../../assets/nurseryProgramImg.webp";
+import program2 from "../../assets/primaryProgramImg.jpg";
+import program3 from "../../assets/secondaryProgramImg.jpg";
 import aboutImg from "../../assets/about.png";
-import gallery1 from "../../assets/gallery-1.png";
-import gallery2 from "../../assets/gallery-2.png";
-import gallery3 from "../../assets/gallery-3.png";
-import gallery4 from "../../assets/gallery-4.png";
+import gallery1 from "../../assets/nurseryImg.jpg";
+import gallery2 from "../../assets/primaryImg.jpeg";
+import gallery3 from "../../assets/secondaryImg.jpg";
+import gallery4 from "../../assets/secondaryImg2.jpg";
 import user1 from "../../assets/user-1.png";
 import msgIcon from "../../assets/msg-icon.png";
 import mailIcon from "../../assets/mail-icon.png";
@@ -108,17 +108,19 @@ const Home = () => {
           <h5>About Adetola Private Schools</h5>
           <span> Nurturing Tomorrow's Leaders Today </span>
           <p>
-            Embark on a transformative educational journey with our university's
-            comprehensive education programs. Our cutting-edge curriculum is
-            designed to empower students with the knowledge, skills, and
-            experiences needed to excel in the dynamic field of education. With
-            a focus on innovation, hands-on learning, and personalized
-            mentorship, our programs prepare aspiring educators to make a
-            meaningful impact in classrooms, schools, and communities. Whether
-            you aspire to become a teacher, administrator, counselor, or
-            educational leader, our diverse range of programs offers the perfect
-            pathway to achieve your goals and unlock your full potential in
-            shaping the future of education.
+            At Adetola Private Schools, we believe education is more than just
+            academics — it’s about shaping confident, creative, and responsible
+            future leaders. From nursery through primary to secondary level, we
+            provide a seamless learning journey that nurtures every child’s
+            potential in a safe, supportive, and inspiring environment. Our
+            dedicated teachers combine modern teaching methods with strong moral
+            values to ensure every learner excels both in the classroom and in
+            life. We focus on academic excellence, character development,
+            creativity, and skills that prepare our students for a rapidly
+            changing world. With vibrant classrooms, engaging extracurricular
+            activities, and a culture of care, we don’t just teach — we inspire.{" "}
+            <br />
+            &#64;AdetolaPrivateSchools — Building Minds, Shaping Futures.
           </p>
         </div>
       </section>
@@ -129,7 +131,18 @@ const Home = () => {
           <img src={gallery1} alt="" />
           <img src={gallery2} alt="" />
           <img src={gallery3} alt="" />
+
           <img src={gallery4} alt="" />
+          <img src={gallery1} alt="" />
+          <img src={gallery2} alt="" />
+          <img src={gallery2} alt="" />
+
+          <img src={gallery4} alt="" />
+          <img src={gallery1} alt="" />
+          <img src={gallery3} alt="" />
+
+          <img src={gallery3} alt="" />
+          <img src={gallery1} alt="" />
         </div>
         <a href="#">
           See More Here <img src={pointer} alt="" className="pointer" />

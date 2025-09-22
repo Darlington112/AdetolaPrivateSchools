@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 import "./NavBar.css";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
+import logo from "../../assets/Adetola_Logo.png";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,7 +21,8 @@ const NavBar = () => {
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
-        <img src={logo} alt="Logo Image" />
+        <img src={logo} alt="Logo Image" className="logo-img" />
+        <span>Adetola Private Schools</span>
       </div>
       <div className="nav-links">
         <Link to="hero-section" smooth={true} duration={500} className="link">

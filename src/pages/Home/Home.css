@@ -69,7 +69,7 @@
 .offer .program-overlay {
   text-align: center;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 80px;
   color: #fff;
   display: none;
@@ -80,7 +80,7 @@
 }
 
 .program-overlay img {
-  width: 70px;
+  width: 30px;
 }
 .about {
   display: flex;
@@ -134,15 +134,15 @@
   margin: 1.5rem 0;
 }
 .gallery .pictures {
-  display: flex;
-  gap: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 .pictures img {
-  width: 20%;
-  border-radius: 10px;
+  width: 100%;
 }
 .pictures {
-  margin: 0 4rem 0 12rem;
+  margin: 0 4rem;
 }
 .gallery a {
   background-color: blue;
@@ -276,4 +276,3 @@
   background: #ebecfe;
   color: #676767;
 }
-
