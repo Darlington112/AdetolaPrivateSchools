@@ -59,9 +59,16 @@ a {
 .hamburger {
   display: none;
 }
-@media (max-width: 1100px) {
+
+@media (max-width: 768px) {
   .nav-links {
-    display: none;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
   }
   .hamburger {
     display: block;
@@ -73,5 +80,13 @@ a {
   }
   .logo span {
     font-size: 1.5rem;
+  }
+  .open {
+    visibility: visible;
+    background-color: #212ea0;
+    z-index: 1000;
+  }
+  .bg-blue {
+    background: #212ea0;
   }
 }

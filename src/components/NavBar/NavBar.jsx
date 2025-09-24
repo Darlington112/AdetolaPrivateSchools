@@ -19,13 +19,18 @@ const NavBar = () => {
     handleScrolled();
     window.addEventListener("scroll", handleScrolled);
   }, []);
+
+  const handleClick = () => {
+    const nav_link = document.querySelector(".nav-links");
+    nav_link.classList.toggle("open");
+  };
   return (
     <nav className={`nav ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
         <img src={logo} alt="Logo Image" className="logo-img" />
         <span>Adetola Private Schools</span>
       </div>
-      <div className="nav-links">
+      <div className="nav-links bg-blue">
         <Link to="hero-section" smooth={true} duration={500} className="link">
           Home
         </Link>
@@ -50,7 +55,7 @@ const NavBar = () => {
           Contact Us
         </Link>
       </div>
-      <img src={menu_icon} alt="" className="hamburger" />
+      <img src={menu_icon} alt="" className="hamburger" onClick={handleClick} />
     </nav>
   );
 };
