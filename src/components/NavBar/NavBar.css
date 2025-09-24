@@ -59,7 +59,7 @@ a {
 .hamburger {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .nav-links {
     display: none;
   }

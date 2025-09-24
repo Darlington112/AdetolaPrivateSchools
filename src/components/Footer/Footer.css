@@ -6,7 +6,7 @@
 .footer hr {
   margin-bottom: 1rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .footer hr {
     width: 160%;
   }
