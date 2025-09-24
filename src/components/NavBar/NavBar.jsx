@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import "./NavBar.css";
 // import logo from "../../assets/logo.png";
 import logo from "../../assets/Adetola_Logo.png";
+import menu_icon from "../../assets/menu-icon.png";
 
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -49,6 +50,7 @@ const NavBar = () => {
           Contact Us
         </Link>
       </div>
+      <img src={menu_icon} alt="" className="hamburger" />
     </nav>
   );
 };

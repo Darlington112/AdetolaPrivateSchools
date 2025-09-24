@@ -25,6 +25,7 @@ import msgIcon from "../../assets/msg-icon.png";
 import mailIcon from "../../assets/mail-icon.png";
 import phoneIcon from "../../assets/phone-icon.png";
 import locationIcon from "../../assets/location-icon.png";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const [result, setResult] = React.useState("");
@@ -295,6 +296,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };

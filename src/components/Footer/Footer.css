@@ -1,0 +1,13 @@
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+.footer hr {
+  margin-bottom: 1rem;
+}
+@media (max-width: 430px) {
+  .footer hr {
+    width: 160%;
+  }
+}

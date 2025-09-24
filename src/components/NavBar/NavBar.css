@@ -56,3 +56,22 @@ a {
 .nav-links .contact-btn:hover {
   opacity: 0.6;
 }
+.hamburger {
+  display: none;
+}
+@media (max-width: 430px) {
+  .nav-links {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    width: 40px;
+  }
+  .nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .logo span {
+    font-size: 1.5rem;
+  }
+}
