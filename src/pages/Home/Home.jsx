@@ -255,6 +255,7 @@ const Home = () => {
                   name="name"
                   id="name"
                   placeholder="Enter Your Name"
+                  required
                 />
               </div>
               <div>
@@ -264,6 +265,7 @@ const Home = () => {
                   name="email"
                   id="email"
                   placeholder="Enter Your Email"
+                  required
                 />
               </div>
               <div>
@@ -273,6 +275,7 @@ const Home = () => {
                   name="number"
                   id="number"
                   placeholder="Enter Your Number"
+                  required
                 />
               </div>
               <div>
@@ -281,11 +284,13 @@ const Home = () => {
                   name="message"
                   id="message"
                   placeholder="Enter Your Message"
+                  required
                 ></textarea>
               </div>
               <ReCAPTCHA
                 sitekey="6Lf2ZcwrAAAAAKFeL4t3KhsBoUh9CTRAf413lMku"
                 onChange={onChange}
+                required
               />
               ,
               <button type="submit" className="submit-btn">
