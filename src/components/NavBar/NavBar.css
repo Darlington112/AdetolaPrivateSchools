@@ -81,9 +81,19 @@ a {
   .logo span {
     font-size: 1.5rem;
   }
+  .link {
+    background-color: blue;
+    padding: 0.5rem;
+  }
+  .nav-links .contact-btn {
+    background: blue;
+    color: #ffff;
+  }
+  .nav-links {
+    gap: 0.4rem;
+  }
   .open {
     visibility: visible;
-    background-color: #212ea0;
     z-index: 1000;
   }
   .bg-blue {
